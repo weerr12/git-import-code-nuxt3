@@ -1,0 +1,155 @@
+@theme {
+  /* Font system */
+  --font-hl: "Poppins", "IBM Plex Sans Thai", sans-serif;
+
+  /* CI */
+  --color-ci-primary: oklch(0.6958 0.204259 43.491);
+  --color-ci-secondary: oklch(0.7475 0.1292 248.74);
+
+  /* Basic */
+  --color-basic-base-black: oklch(0.25 0 0);
+  --color-basic-base-white: oklch(1 0 0);
+  --color-basic-gray-10: oklch(0.99 0 0);
+  --color-basic-gray-20: oklch(0.97 0 0);
+  --color-basic-gray-30: oklch(0.9491 0 0);
+  --color-basic-gray-40: oklch(0.9067 0 0);
+  --color-basic-gray-50: oklch(0.7984 0 0);
+  --color-basic-gray-60: oklch(0.7 0 0);
+  --color-basic-gray-70: oklch(0.56 0 0);
+  --color-basic-gray-80: oklch(0.49 0 0);
+  --color-basic-gray-90: oklch(0.38 0 0);
+
+  /* Divider */
+  --color-divider-divider1: oklch(0.96 0 0);
+  --color-divider-divider2: oklch(0.92 0 0);
+  --color-divider-divider3: oklch(0.8 0 0);
+
+  /* Panels */
+  --color-panels-white: oklch(1 0 0);
+  --color-panels-gray-1: oklch(0.95 0 0);
+  --color-panels-gray-2: oklch(0.97 0 0);
+  --color-panels-outline-1: oklch(0.95 0 0);
+  --color-panels-outline-2: oklch(0.91 0 0);
+  --color-panels-outline-3: oklch(0.8 0 0);
+
+  /* Checkbox, Radio */
+  --color-checkbox-radio-enable-bg: oklch(1 0 0);
+  --color-checkbox-radio-enable-border: oklch(0.6993 0 0);
+  --color-checkbox-radio-enable-selected: oklch(0.6958 0.204259 43.491);
+  --color-checkbox-radio-disable-selected: oklch(0.864 0.0573 37.22);
+  --color-checkbox-radio-disable-bg: oklch(0.7984 0 0);
+  --color-checkbox-radio-disable-border: oklch(0.9067 0 0);
+
+  /* Input field */
+  --color-input-field-bg-enable: oklch(1 0 0);
+  --color-input-field-bg-disable: oklch(0.9702 0 0);
+  --color-input-field-border-default: oklch(0.9067 0 0);
+  --color-input-field-border-focused: oklch(0.4926 0 0);
+  --color-input-field-border-invalid: oklch(0.6617 0.1931 24.05);
+
+  /* Badge, Tag */
+  --color-badge-info-hover: oklch(0.6304 0.1758 250.21);
+  --color-badge-info-bg: oklch(0.9675 0.0168 242.42);
+
+  --color-badge-neutral-hover: oklch(0.4926 0 0);
+  --color-badge-neutral-bg: oklch(0.9491 0 0);
+
+  --color-badge-warning-hover: oklch(0.7076 0.1798 52.9);
+  --color-badge-warning-bg: oklch(0.9652 0.0449 90.39);
+
+  --color-badge-success-hover: oklch(0.6856 0.1802 151.91);
+  --color-badge-success-bg: oklch(0.9819 0.0181 155.83);
+
+  --color-badge-danger-hover: oklch(0.6007 0.1931 25.14);
+  --color-badge-danger-bg: oklch(0.93 0.0355 17.81);
+
+  --color-badge-indigo-hover: oklch(0.4568 0.2146 277.02);
+  --color-badge-indigo-bg: oklch(0.9299 0.0334 272.79);
+
+  --color-badge-purple-hover: oklch(0.4955 0.2369 301.92);
+  --color-badge-purple-bg: oklch(0.9464 0.0327 307.17);
+
+  --color-badge-pink-hover: oklch(0.5246 0.199 3.96);
+  --color-badge-pink-bg: oklch(0.9482 0.0276 342.26);
+
+  /* Feedback */
+  --color-feedback: oklch(0.2931 0 0);
+
+  /* CTA */
+  --color-cta-primary-default: oklch(0.6958 0.204259 43.491);
+  --color-cta-primary-hover: oklch(0.704 0.1913 36.89);
+  --color-cta-primary-clicked: oklch(0.6519 0.1804 35.76);
+  --color-cta-primary-disabled: oklch(0.864 0.0573 37.22);
+
+  --color-cta-secondary-default: oklch(0.5249 0.264881 263.0129);
+  --color-cta-secondary-hover: oklch(0.5837 0.2269 264.29);
+  --color-cta-secondary-clicked: oklch(0.4451 0.223 262.94);
+  --color-cta-secondary-disabled: oklch(0.8167 0.0911 266.53);
+
+  --color-cta-success-default: oklch(0.69 0.1802 151.91);
+  --color-cta-success-hover: oklch(0.61 0.1674 150.32);
+  --color-cta-success-clicked: oklch(0.56 0.1519 150.48);
+  --color-cta-success-disabled: oklch(0.84 0.0702 156.2);
+
+  --color-cta-warning-default: oklch(0.78 0.1618 60.49);
+  --color-cta-warning-hover: oklch(0.74 0.1743 50.68);
+  --color-cta-warning-clicked: oklch(0.69 0.1609 51.23);
+  --color-cta-warning-disabled: oklch(0.85 0.0747 58.59);
+
+  --color-cta-danger-default: oklch(0.62 0.215 26.21);
+  --color-cta-danger-hover: oklch(0.57 0.1957 26.09);
+  --color-cta-danger-clicked: oklch(0.5 0.1781 26.61);
+  --color-cta-danger-disabled: oklch(0.81 0.09 19.22);
+
+  --color-cta-ai-default: oklch(0.5317 0.2459 263.53);
+  --color-cta-ai-hover: oklch(0.643 0.1901 265.36);
+  --color-cta-ai-clicked: oklch(0.6267 0.1219 243.92);
+  --color-cta-ai-disabled: oklch(0.7993 0.0957 267.17);
+
+  /* Data */
+  --color-data-int-main: oklch(0.646 0.1423 253.92);
+  --color-data-int-bg: oklch(0.9546 0.0177 253.34);
+
+  --color-data-numeric-main: oklch(0.7825 0.2121 133.19);
+  --color-data-numeric-bg: oklch(0.9572 0.0474 130.74);
+
+  --color-data-uuid-main: oklch(0.5525 0.2889 298.93);
+  --color-data-uuid-bg: oklch(0.9652 0.0449 90.39);
+
+  --color-data-string-main: oklch(0.7516 0.1468 131.05);
+  --color-data-string-bg: oklch(0.9693 0.0284 128.79);
+
+  --color-data-text-main: oklch(0.7837 0.1587 72.99);
+  --color-data-text-bg: oklch(0.9677 0.0277 81.48);
+
+  --color-data-boolean-main: oklch(0.7076 0.19745 46.4558);
+  --color-data-boolean-bg: oklch(0.9712 0.0253 78.92);
+
+  --color-data-timestamp-main: oklch(0.5402 0.219 26.28);
+  --color-data-timestamp-bg: oklch(0.956 0.0187 25.6);
+
+  --color-data-lat-long-main: oklch(0.4091 0 0);
+  --color-data-lat-long-bg: oklch(0.9612 0 0);
+
+  --color-data-json-main: oklch(0.4261 0.235267 263.7418);
+  --color-data-json-bg: oklch(0.9374 0.0268 269.67);
+
+  --color-data-reference-main: oklch(0.6697 0.1046 175.47);
+  --color-data-reference-bg: oklch(0.9652 0.0276 185.59);
+
+  /* API Method */
+  --color-api-method-get: oklch(0.7378 0.1388 250.5);
+  --color-api-method-post: oklch(0.7581 0.1444 159.82);
+  --color-api-method-put: oklch(0.7836 0.1593 66.13);
+  --color-api-method-patch: oklch(0.8291 0.1333 174.96);
+  --color-api-method-delete: oklch(0.6477 0.2229 26.05);
+
+  /* Shadows */
+  --shadow-md: 0 2px 4px 0 rgb(0 0 0 / 0.04), 0 1px 1px 0 rgb(0 0 0 / 0.02);
+  --shadow-lg: 0 4px 10px 0 rgb(0 0 0 / 0.08), 0 1px 4px 0 rgb(0 0 0 / 0.04);
+  --shadow-xl: 0 8px 32px 0 rgb(0 0 0 / 0.08), 0 2px 20px 0 rgb(0 0 0 / 0.04);
+  --shadow-2xl: 0 24px 60px 0 rgb(0 0 0 / 0.12), 0 8px 20px 0 rgb(0 0 0 / 0.06);
+  --shadow-toggles: 0 1 4 0 rgb(0 0 0 / 0.09);
+  --shadow-title: 0 -8px 32px 0 rgb(0 0 0 / 0.08),
+    0 -2px 20px 0 rgb(0 0 0 / 0.04);
+}

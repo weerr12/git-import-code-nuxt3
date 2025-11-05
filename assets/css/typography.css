@@ -1,0 +1,83 @@
+@utility hl-36px-600 {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 600;
+  font-family: var(--font-hl);
+}
+
+@utility hl-36px-400 {
+  font-size: 36px;
+  line-height: 54px;
+  font-weight: 400;
+  font-family: var(--font-hl);
+}
+
+@utility hl-30px-600 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 600;
+  font-family: var(--font-hl);
+}
+
+@utility hl-24px-600 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: var(--font-hl);
+}
+
+@utility hl-24px-400 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  font-family: var(--font-hl);
+}
+
+@utility hl-20px-600 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: var(--font-hl);
+}
+
+@utility hl-20px-400 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: var(--font-hl);
+}
+
+@utility hl-16px-600 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--font-hl);
+}
+
+@utility hl-16px-400 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: var(--font-hl);
+}
+
+@utility hl-14px-600 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+  font-family: var(--font-hl);
+}
+
+@utility hl-14px-400 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  font-family: var(--font-hl);
+}
+
+@utility hl-12px-400 {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: var(--font-hl);
+}
